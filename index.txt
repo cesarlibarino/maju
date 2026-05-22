@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Maju Cordeiro | Método Dose de Longevidade</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            maju: {
+              bg: '#050a09', /* Verde quase preto */
+              card: '#0d1a17', /* Verde floresta escuro */
+              brand: '#10b981', /* Esmeralda */
+              brandHover: '#059669',
+              gold: '#c5a059', /* Dourado para autoridade */
+              muted: '#9ca3af'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    .text-gradient { background: linear-gradient(to right, #10b981, #c5a059); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-maju-bg text-white font-sans antialiased selection:bg-maju-brand selection:text-white">
+
+  <header class="fixed top-0 w-full z-50 bg-maju-bg/90 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12 h-24 flex items-center justify-between">
+      <div class="text-xl sm:text-2xl font-extrabold uppercase tracking-tight">
+        Maju Cordeiro <span class="text-maju-brand text-xs sm:text-sm block font-semibold tracking-wider normal-case">Dose de Longevidade ®</span>
+      </div>
+      <a href="https://api.whatsapp.com/message/J4WNLR7AJ2DTH1?autoload=1&app_absent=0&utm_source=ig" target="_blank" class="bg-maju-brand hover:bg-maju-brandHover text-white text-xs sm:text-sm font-bold uppercase px-6 py-3 rounded transition-all duration-300 transform hover:scale-105 active:scale-95">
+        Agendar Consulta
+      </a>
+    </div>
+  </header>
+
+  <section class="pt-48 pb-32 px-6 max-w-7xl mx-auto text-center min-h-screen flex flex-col justify-center items-center">
+    <div class="reveal active w-full max-w-5xl">
+      <span class="inline-block bg-maju-gold/10 text-maju-gold border border-maju-gold/20 text-xs sm:text-sm font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-8 animate-pulse">
+        Nutrição Clínica & Emagrecimento Estratégico
+      </span>
+      
+      <h1 class="text-4xl sm:text-7xl font-extrabold uppercase tracking-tighter leading-tight sm:leading-none mb-8">
+        Recupere sua saúde com a <span class="text-gradient block sm:inline">dose certa de longevidade.</span>
+      </h1>
+      
+      <p class="text-gray-400 text-lg sm:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed">
+        Não é sobre dietas restritivas. É sobre <strong class="text-white font-semibold">estratégia celular</strong> para destravar seu metabolismo, desinflamar seu corpo e conquistar o shape que você merece.
+      </p>
+      
+      <div class="mb-16">
+        <a href="https://api.whatsapp.com/message/J4WNLR7AJ2DTH1?autoload=1&app_absent=0&utm_source=ig" target="_blank" class="inline-flex items-center gap-4 bg-maju-brand hover:bg-maju-brandHover text-white font-bold uppercase text-sm sm:text-base tracking-widest px-10 py-5 rounded-md shadow-2xl shadow-maju-brand/30 transition-all duration-300 transform hover:-translate-y-1">
+          <i data-lucide="sparkles" class="w-6 h-6"></i> Começar Minha Transformação
+        </a>
+      </div>
+
+      <div class="relative inline-block">
+        <div class="absolute inset-0 bg-maju-brand/10 rounded-full blur-3xl pointer-events-none"></div>
+        <img 
+          src="nutri-maju-cordeiro.webp" 
+          alt="Dra. Maria Júlia Cordeiro" 
+          class="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 rounded-full object-cover border-4 border-maju-gold/30 shadow-2xl shadow-maju-brand/20 transition-transform duration-500 hover:scale-105"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-[#070f0d] border-y border-white/5">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="reveal max-w-3xl mx-auto mb-20">
+        <h2 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight mb-6">
+          Seu corpo está dando <span class="text-maju-gold">sinais de alerta?</span>
+        </h2>
+        <p class="text-gray-400 text-lg leading-relaxed">
+          O emagrecimento travado é apenas a ponta do iceberg. Se você sente que vive no seu limite, o problema pode estar na base do seu metabolismo.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+        <div class="reveal bg-maju-card p-10 rounded-xl border border-white/5 group hover:border-maju-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-maju-brand/10 text-maju-brand flex items-center justify-center mb-6">
+            <i data-lucide="battery-low" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Cansaço Crônico</h3>
+          <p class="text-gray-400">Acordar cansada e depender de café para sobreviver ao dia é sinal de um metabolismo inflamado e sem nutrientes básicos.</p>
+        </div>
+
+        <div class="reveal bg-maju-card p-10 rounded-xl border border-white/5 group hover:border-maju-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-maju-brand/10 text-maju-brand flex items-center justify-center mb-6">
+            <i data-lucide="thermometer-snowflake" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Inflamação Silenciosa</h3>
+          <p class="text-gray-400">Intestino preso, pele opaca e inchaço constante. Seu corpo está lutando contra o que você coloca no prato.</p>
+        </div>
+
+        <div class="reveal bg-maju-card p-10 rounded-xl border border-white/5 group hover:border-maju-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-maju-brand/10 text-maju-brand flex items-center justify-center mb-6">
+            <i data-lucide="lock" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Emagrecimento Travado</h3>
+          <p class="text-gray-400">Você até tenta comer menos, mas a balança não se move. Suas células estão em modo de resistência à perda de gordura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div class="reveal order-2 md:order-1 bg-gradient-to-br from-maju-card to-maju-bg p-12 rounded-2xl border border-white/10 relative overflow-hidden">
+        <div class="absolute -right-16 -bottom-16 w-64 h-64 bg-maju-brand/5 rounded-full blur-3xl"></div>
+        <h4 class="text-2xl font-extrabold uppercase mb-6 text-maju-gold">O Método Dose de Longevidade</h4>
+        <ul class="space-y-6">
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-maju-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-white"></i></div>
+            <p class="text-gray-300"><strong>Nutrição Clínica Avançada:</strong> Foco em saúde intestinal e controle hormonal.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-maju-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-white"></i></div>
+            <p class="text-gray-300"><strong>Suporte Celular:</strong> Protocolos para aumentar a energia mitocondrial e vitalidade.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-maju-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-white"></i></div>
+            <p class="text-gray-300"><strong>Protocolo Petrolina & Online:</strong> Flexibilidade para te acompanhar onde quer que esteja.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-1 md:order-2 space-y-8">
+        <div class="reveal">
+          <h2 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight mb-6">
+            Ciência aplicada à sua <span class="text-maju-brand">rotina.</span>
+          </h2>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Eu não entrego apenas uma folha de papel. Entrego um sistema de mudança de estilo de vida que respeita sua individualidade biológica.
+          </p>
+        </div>
+        
+        <div class="reveal flex gap-6 items-start">
+          <div class="w-14 h-14 rounded-full bg-maju-gold/10 text-maju-gold flex items-center justify-center shrink-0">
+            <i data-lucide="activity" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold uppercase mb-2">Foco em Longevidade</h3>
+            <p class="text-gray-400 text-sm sm:text-base">Perder peso é consequência de um corpo que funciona bem. Nosso objetivo é fazer você viver mais e melhor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-gradient-to-b from-[#050a09] to-maju-bg text-center border-t border-white/5">
+    <div class="reveal max-w-4xl mx-auto">
+      <h2 class="text-4xl sm:text-6xl font-extrabold uppercase tracking-tighter mb-8 leading-tight">
+        Dê o primeiro passo para sua <span class="text-maju-brand">nova versão.</span>
+      </h2>
+      <p class="text-gray-400 text-lg sm:text-xl mb-12 leading-relaxed">
+        Seja presencial em Petrolina ou através da minha Consultoria Online, eu vou desenhar o mapa exato para você conquistar a saúde e o corpo que sempre quis.
+      </p>
+
+      <div class="flex flex-col items-center gap-6">
+        <a href="https://api.whatsapp.com/message/J4WNLR7AJ2DTH1?autoload=1&app_absent=0&utm_source=ig" target="_blank" class="inline-flex items-center gap-4 bg-maju-brand hover:bg-maju-brandHover text-white font-bold uppercase text-sm sm:text-lg tracking-widest px-12 py-6 rounded-md shadow-2xl shadow-maju-brand/30 transition-all duration-300 transform hover:-translate-y-1">
+          <i data-lucide="message-circle" class="w-6 h-6"></i> Agendar Via WhatsApp
+        </a>
+        <div class="flex items-center gap-2 text-maju-gold text-xs uppercase tracking-widest font-bold">
+          <span class="w-2 h-2 bg-maju-brand rounded-full animate-ping"></span>
+          Últimas vagas para este mês
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 text-center text-xs text-gray-600 border-t border-white/5">
+    <p>&copy; 2026 Dra. Maria Júlia Cordeiro | Petrolina - PE | Online Mundo</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { 
+        if(e.isIntersecting) { 
+          e.target.classList.add('active'); 
+          observer.unobserve(e.target); 
+        } 
+      });
+    }, { threshold: 0.1 });
+    
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>
